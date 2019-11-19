@@ -1,0 +1,113 @@
+body {
+  padding: 20px;
+  font-family: "Century", serif;
+}
+
+
+.logo {
+  text-align: center;
+  text-decoration: none;
+  color:black;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-top: 2%;
+}
+
+h3 {
+  margin-top: 1%;
+  font-size: 1.3em;
+}
+
+h1,h2,h3 {
+  font-family: "Lucida Bright", serif;
+}
+
+p {
+	font-size: 1.2em;
+	color: black;
+	text-align: left;
+  margin-bottom: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header h1.logo {
+  font-size: 1.2em;
+  float: left;
+}
+
+.show{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  color:black;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li + li {
+  margin-left: 30px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+}
+
+.brick {
+  border: 1.1px solid;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color:rgba(222, 222, 222, 0.048);
+  box-shadow:5px 5px 13px 5px rgb(177, 177, 177) inset;  
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+hr { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.title {
+  text-align: center;
+}
+
+.aboutme {
+  margin: 2%;
+}
+
+.section0 {
+  font-size: 140%;
+}
+
+.section1 {
+  font-size: 130%;
+}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/others/oth-6/oth638.cur), auto !important;} /* End http://www.cursors-4u.com */
